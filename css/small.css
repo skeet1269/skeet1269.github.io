@@ -11,14 +11,13 @@ body {
 header {
     background-color:#39b54a;
     padding:5px;
-    border-radius:20px;
     color:#e0ec38;
     text-align:center;
     font-family: 'Pompiere',veranda, sans-serif;
 }
 
 img {
-  float: right;
+  
   max-height: 250px;
 }
 
@@ -30,12 +29,14 @@ main {
     margin:15px;
 }
 h2 {
+    font-size: 1.5rem;
     margin-top:1.5em;
     padding:2px;
     
 }
 
 h3 {
+  font-size: 1rem;
   border-top: 10px double;
   border-bottom: 10px double;
   font-family: 'Quicksand', veranda, sans-serif;
@@ -44,7 +45,6 @@ footer {
     background-color:#39b54a;
     padding: 5px;
     margin-top:2em;
-    border-radius:20px;
     color:#e0ec38;
     text-align:center;
     font-family: 'Pompiere',veranda, sans-serif;
