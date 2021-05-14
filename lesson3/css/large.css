@@ -3,3 +3,13 @@
         grid-template-columns: 1fr 1fr 1fr;
     }
 }
+
+nav ul {
+    padding-left: 1rem;
+  }
+  nav ul li {
+    flex-basis: auto;
+  }
+  nav a {
+    padding: 0.5rem 1rem;
+  }
