@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Pompiere&family=Quicksand&display=swap');
+
+
+
+body {
+    background-color: #EDD9A3;
+       padding: 5px 25px;
+    font-size: 18px;
+    margin:0 auto;
+    font-family: 'Quicksand', veranda, sans-serif;
+}
+
+.jason {
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  width: 100%;
+
+}
+
+
+
+header {
+    display: flex;
+    text-align: center;
+    background-color:#3F4B3B;
+    padding:5px;
+    border-radius:10px 10px 0px 0px;
+    color:#A9B2AC;
+    font-family: 'Pompiere',veranda, sans-serif;
+    height: 160px;
+        
+
+}
+
+.boxes ul {
+  list-style-type: none;
+  padding: 0px;
+  
+  
+
+}
+
+.boxes ul li {
+  list-style-type: none;
+  background: gray;
+  padding: 20px;
+  margin: 20px;
+  border-color: black;
+  border: 2px solid black;
+  
+
+}
+
+
+
+nav {
+	background-color: #0075A2;
+	text-align: center;
+  padding: 5px;
+  
+}
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+nav ul li a {
+	display: block;
+	color: #A9B2AC;
+	text-align: center;
+	padding: 0.75rem;
+	text-decoration: none;
+	font-size: 0.95rem;
+}
+nav a:hover {
+	background-color: #A9B2AC;
+	color: white;
+}
+
+
+
+header,
+main,
+nav,
+footer {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+h1, h2, h3, h4 {font-family: 'Pompiere', veranda, sans-serif;}
+
+
+
+
+
+  p {font-family: 'Quicksand',veranda, sans-serif;
+    line-height: 1em;
+         }
+
+         .colors {
+            
+            width: 100%;
+            
+            
+            text-align: center;
+            padding: 5px;
+          }
+          .colors th {
+            background-color: #999;
+          }
+          .colors td{
+            width: 20%;
+            height: 3em;
+            font-size: 12px;
+            
+          }
+          
+          .primary {
+            background-color: var(--primary-color);
+          }
+          .secondary {
+            background-color: var(--secondary-color);
+          }
+          .accent1 {
+            background-color: var(--accent1-color);
+          }
+          .accent2{
+            background-color: var(--accent2-color);
+          }
+
+          .accent3{
+            background-color: var(--accent3-color);
+          }
+          
+         
+          
+          :root {
+            /* change the values below to your colors from your palette */
+            --primary-color: #3F4B3B;
+            --secondary-color: #EDD9A3;
+            --accent1-color: #0075A2;
+            --accent2-color: #A9B2AC;
+            --accent3-color:#A44A3F;
+          
+          }
+          
+        
+
+
+
+
+footer {
+    background-color:#3F4B3B;
+    margin-top:2em;
+    padding: 5px;
+    border-radius: 0px 0px 10px 10px;
+    color:#A9B2AC;
+    text-align:center;
+    font-family: 'Pompiere',veranda, sans-serif;
+}
