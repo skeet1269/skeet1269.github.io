@@ -79,7 +79,7 @@ nav ul li a {
 }
 nav a:hover {
 	background-color: #A9B2AC;
-	color: white;
+	color: var(--accent1-color);
 }
 
 
