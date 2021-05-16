@@ -18,18 +18,21 @@ body {
 }
 
 
-
 header {
-    display: flex;
-    text-align: center;
-    background-color:#3F4B3B;
-    padding:5px;
-    border-radius:10px 10px 0px 0px;
-    color:#A9B2AC;
-    font-family: 'Pompiere',veranda, sans-serif;
-    height: 160px;
-        
+  display: flex;
+  text-align: center;
+  background-color:#3F4B3B;
+  padding:5px;
+  border-radius:10px 10px 0px 0px;
+  color:#A9B2AC;
+  font-family: 'Pompiere',veranda, sans-serif;
+  height: 160px;
+      
 
+}
+
+h2 {
+  text-align: center;
 }
 
 .boxes ul {
@@ -50,6 +53,7 @@ header {
   
 
 }
+
 
 
 
@@ -158,4 +162,31 @@ footer {
     color:#A9B2AC;
     text-align:center;
     font-family: 'Pompiere',veranda, sans-serif;
+}
+
+.navigation {
+	list-style: none;
+	padding: 0;
+}
+.navigation li:first-child {
+	display: block;
+}
+.navigation li {
+	display: none;
+}
+.navigation a {
+	display: block;
+	padding: 0.75rem;
+	text-align: center;
+	text-decoration: none;
+	color: var(--secondary-color);
+	font-weight: 700;
+}
+.navigation a:hover {
+	color: white;
+	background-color: var(--secondary-color);
+}
+
+.responsive li {
+	display: block;
 }
