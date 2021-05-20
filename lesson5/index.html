@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>WDD 230 Weather Site</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Pompiere&family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <script src="js/script.js" async></script>
+  </head>
+  <body onload="getdate();">
+
+    
+    <header>
+      <img src="/lesson3/images/weather.png" alt="Site Icon">
+      <div class="jason">
+        <h1>Southeast Idaho Now</h1>
+        <h3>All You Need To Start Your Day</h3>
+      </div>
+        
+</header>
+   
+    <nav>
+        <ul class="navigation">
+            <li><a class="ham" href="#" onclick="togglemenu()">☰ Menu</a></li> 
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>
+        </ul>
+    </nav>
+
+    
+
+   
+  
+<main>
+
+    <h2>Preston Idaho</h2>
+
+    <div class="boxes">
+
+    <ul>
+        <li><a>Hero w/ Weather Summary</a></li>
+        <li><a>5 Day Forecast</a></li>
+        <li><a>Article</a></li>
+        <li><a>Contact Information</a></li>
+    </ul>
+    </div>
+  
+    
+
+  </main>
+
+    <footer>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47365.7262827924!2d-111.91534435316186!3d42.09980531169445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C%20ID%2083263!5e0!3m2!1sen!2sus!4v1621474635433!5m2!1sen!2sus" width="350" height="200" margin="1em" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      <div class="info">
+      <p>&copy; <span id="currentYear">2021</span> 
+          | Jason Skelly | Alabama | 
+          <a href="https://www.byui.edu/online" target="_blank">
+          BYUI Online Learning</a>
+        </p>
+
+        <p><date></date></p>
+          <!-- <p id="lastmodified"> -->
+            
+          <!-- </p> -->
+        </div>  
+      </footer>
+
+     </body> 
+     </html>
