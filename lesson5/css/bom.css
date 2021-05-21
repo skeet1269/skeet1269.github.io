@@ -31,9 +31,15 @@ label {
 	font-size: 0.8rem;
 }
 
+.listcontainer {
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid #bbb;
+}
+
 .list {
 	margin: 1rem;
-	border: 1px solid #bbb;
+	
 }
 ul {
 	margin: 1rem;
