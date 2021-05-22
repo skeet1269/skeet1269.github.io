@@ -43,17 +43,16 @@ h2 {
   height: auto;
 }
 
-.weathersummary {
+.weathersummary{
   position: absolute;
-  top: 20px;
-  left: 10px;
+  top: 5px;
+  left: 20px;
+  background: radial-gradient(#eee, #0075A2);
+  border: 1px solid #E58F65;
+  border-radius: 10px;
+  opacity: .8;
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr ;
-  background: #0075A2;
-  opacity: .6;
-  border-radius: 10%;
-  color: #EDD9A3
+  color: #EDD9A3;
   
   }
 
@@ -219,3 +218,54 @@ footer {
 .responsive li {
 	display: block;
 }
+
+.five {
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.five-col {
+	flex: 1 1 auto;
+	background-color: white;
+}
+.five-col {
+	border-bottom: 1px solid #333;
+	border-left: 1px solid #333;
+	text-align: center;
+}
+.five-col:hover
+{
+	opacity: 0.75;
+	background-color: var(--accent2-color);
+	color: var(--secondary-color);
+}
+.five{
+	border-right: 1px solid #333;
+}
+
+.col-head {
+	display: block;
+	padding: 5px;
+	border-bottom: 1px solid #333;
+	text-align: center;
+}
+
+.fiveimg {
+	border-radius: 100px;
+	padding: 0.25rem;
+}
+
+.data {
+	display: block;
+	padding: 0 5px 5px;
+	font-size: 0.8rem;
+	text-align: center;
+}
+
+.col-head {
+	font-weight: 700;
+	font-size: 1rem;
+	background-color: var(--accent3-color);
+	color: var(--secondary-color);
+}
+
