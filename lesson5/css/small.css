@@ -229,8 +229,8 @@ footer {
 	background-color: white;
 }
 .five-col {
-	border-bottom: 1px solid #333;
-	border-left: 1px solid #333;
+	border-bottom: 1px solid var(--accent3-color);
+	border-left: 1px solid var(--accent3-color);
 	text-align: center;
 }
 .five-col:hover
@@ -240,13 +240,13 @@ footer {
 	color: var(--secondary-color);
 }
 .five{
-	border-right: 1px solid #333;
+	border-right: 1px solid var(--accent3-color);
 }
 
 .col-head {
 	display: block;
 	padding: 5px;
-	border-bottom: 1px solid #333;
+	border-bottom: 1px solid var(--accent3-color);
 	text-align: center;
 }
 
