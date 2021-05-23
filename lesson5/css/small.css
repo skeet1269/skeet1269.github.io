@@ -273,7 +273,8 @@ footer {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 1em;
-  margin: 10px;
+  margin: 50px;
+  
 }
 
 .home-headline-1 {
@@ -294,4 +295,12 @@ footer {
   padding: 10px;
   box-shadow: 5px 5px 5px #999;
   margin: 10px;
+}
+
+#banner {
+  color: var(--secondary-color);
+  padding: 20px;
+  border-radius: 10px 10px 10px 10px;
+  text-align: center;
+  background-color: var(--accent3-color);
 }
