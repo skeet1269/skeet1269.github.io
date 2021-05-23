@@ -220,6 +220,12 @@ footer {
 	background-color: var(--secondary-color);
 }
 
+.active {
+  color: white;
+  background-color: var(--accent3-color);
+  font-weight: bold;
+}
+
 .responsive li {
 	display: block;
 }
