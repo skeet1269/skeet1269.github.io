@@ -30,5 +30,24 @@
     }
   }
 
+  .five {
+    display: flex;
+    flex-flow: row wrap;
+  }
+  
+  .five-col {
+    flex: 1 1 auto;
+    background-color: white;
+  }
+  .five-col {
+    border-bottom: 1px solid var(--accent3-color);
+    border-left: 1px solid var(--accent3-color);
+    text-align: center;
+  }
+  
+  .five {
+    border-right: 1px solid var(--accent3-color);
+  }
+
   
   

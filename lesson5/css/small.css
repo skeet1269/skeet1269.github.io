@@ -8,7 +8,7 @@ body {
     font-size: 18px;
     margin:0 auto;
     font-family: 'Quicksand', veranda, sans-serif;
-    max-width: 960px;
+   max-width: 960px;
 }
 
 .jason {
@@ -28,6 +28,8 @@ header {
   color:#A9B2AC;
   font-family: 'Pompiere',veranda, sans-serif;
   height: 180px;
+  
+
       
 
 }
@@ -232,11 +234,11 @@ footer {
 }
 
 .five {
-	display: flex;
-	flex-flow: row wrap;
+	display: none;
+	
 }
 
-.five-col {
+/* .five-col {
 	flex: 1 1 auto;
 	background-color: white;
 }
