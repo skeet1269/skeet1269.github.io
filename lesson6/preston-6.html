@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>WDD 230 Weather Site</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Pompiere&family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <script src="js/script.js" async></script>
+  </head>
+  <body onload="getdate();">
+    
+    <div id="banner">Preston Pancakes for Kids in the Park! 8:00 a.m. tomorrow Saturday at the city park pavillion.</div>
+
+    
+    <header>
+      <img src="/lesson5/images/weather.png" alt="Site Icon">
+      <div class="jason">
+        <h1>Southeast Idaho Now</h1>
+        <h3>All You Need To Start Your Day</h3>
+      </div>
+        
+</header>
+   
+    <nav>
+        <ul class="navigation">
+            <li><a class="ham" href="#" onclick="togglemenu()">☰ Menu</a></li> 
+            <li><a href="#">Home</a></li>
+            <li><a href="/lesson5/preston-5.html" class="active">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>
+        </ul>
+    </nav>
+
+    
+
+   
+  
+<main>
+
+    <h2>Preston Idaho</h2>
+    <div class="herodiv">
+      <img class="heroimg" src="/lesson5/images/preston1.jpg" alt="main image">
+        <section class="weathersummary">
+    <h3><u>Weather Summary</u></h3>
+    <p>Current: <span id="Current">Overcast</span></p>
+    <p>High: <span id="High">78°F</span></p>
+    <p>Wind Chill: <span id="WindChill">°F</span></p>
+    <p>Humidity: <span id="Humidity">30%</span></p>
+    <p>Wind Speed: <span id="WindSpeed">20 mph gust</span></p>
+    
+    </section>
+</div>
+
+<h2>5 Day Forcast</h2>
+<div class="five">
+	<div class="five-col">
+		<span class="col-head">SUN</span>
+		<img class="fiveimg" src="/lesson5/images/sunny.png" alt="sunny">
+		<span class="data">Sunny</span>
+	</div>
+	<div class="five-col">
+		<span class="col-head">MON</span>
+		<img class="fiveimg" src="/lesson5/images/sunny.png" alt="sunny">
+		<span class="data">Sunny</span>
+	</div>
+	<div class="five-col">
+		<span class="col-head">TUE</span>
+		<img class="fiveimg" src="/lesson5/images/partly.png" alt="partly cloudy">
+		<span class="data">Partly Cloudy</span>
+	</div>
+	<div class="five-col">
+		<span class="col-head">WED</span>
+		<img class="fiveimg" src="/lesson5/images/cloudy.png" alt="cloudy">
+		<span class="data">Cloudy</span>
+	</div>
+	<div class="five-col">
+		<span class="col-head">THUR</span>
+		<img class="fiveimg" src="/lesson5/images/showers.png" alt="showers">
+		<span class="data">Showers</span>
+	</div>
+
+</div>
+
+<div class="paragraph">
+  <h2>Conoeing Adventure on the Bear River</h2>
+  <figure class="home-img">
+    <img src="images/desolation6.jpg" alt="canoe">
+  </figure>
+<p>Now is the time of year to enjoy the outdoors. Preston has several waterways to explore, one of which is the Bear River. Whether you are looking to explore the abundance of birds and wildlife that calls this area home,
+  or taking in some fishing this is the place for you. Bring your family, bring your freinds, or just bring yourself for a peaceful get away from the everyday. For more information you can visit the Preston Area Chamber of Commerce at our website
+  <a href="www.prestonchamber.org">www.prestonchamber.org</a>.
+  We cannot wait to see you there.
+  </p>
+  
+
+  </main>
+
+    <footer>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47365.7262827924!2d-111.91534435316186!3d42.09980531169445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C%20ID%2083263!5e0!3m2!1sen!2sus!4v1621474635433!5m2!1sen!2sus" width="350" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      <div class="info">
+        
+        <p><u>Contact Information</u></p>
+        <p>4400 Granny Smith Circle <br>
+        Phone #: 208.555.5555 <br>
+        email: info@southeastidahonow.us</p>
+      <p>&copy; <span id="currentYear">2021</span> 
+          | Jason Skelly | Alabama | 
+          <a href="https://www.byui.edu/online" target="_blank">
+          BYUI Online Learning</a>
+        </p>
+
+        <p><date></date></p>
+          <!-- <p id="lastmodified"> -->
+            
+          <!-- </p> -->
+        </div>  
+      </footer>
+
+     </body> 
+     </html>
