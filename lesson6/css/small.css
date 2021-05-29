@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Pompiere&family=Quicksand&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Pompiere&family=Quicksand&display=swap');*/
 
 
 
@@ -237,7 +237,7 @@ footer {
 	
 }
 
-/*.five-col {
+.five-col {
 	flex: 1 1 auto;
 	background-color: white;
 }
@@ -249,7 +249,7 @@ footer {
 
 .five {
 	border-right: 1px solid var(--accent3-color);
-}*/
+}
 
 .col-head {
 	display: block;
