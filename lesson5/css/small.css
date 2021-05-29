@@ -28,9 +28,7 @@ header {
   color:#A9B2AC;
   font-family: 'Pompiere',veranda, sans-serif;
   height: 180px;
-  
-
-      
+ 
 
 }
 
@@ -198,6 +196,7 @@ footer {
     color:#A9B2AC;
     text-align:center;
     font-family: 'Pompiere',veranda, sans-serif;
+    
 }
 
 .navigation {
@@ -238,7 +237,7 @@ footer {
 	
 }
 
-/* .five-col {
+.five-col {
 	flex: 1 1 auto;
 	background-color: white;
 }
