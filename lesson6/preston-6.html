@@ -48,7 +48,13 @@
 
     <h2>Preston Idaho</h2>
     <div class="herodiv">
-      <img class="heroimg" src="/lesson6/images/preston1.jpg" alt="main image">
+      <picture>
+        <source media="(max-width: 360px)" srcset="images/hero-small.jpg">
+        <source media="(max-width: 680px)" srcset="images/hero-medium.jpg">
+        <source media="(max-width: 960px)" srcset="images/hero-large.jpg">
+        <img class="heroimg" src="/lesson6/images/hero-original.jpeg" alt="main image">
+      </picture>
+      
         <section class="weathersummary">
     <h3><u>Weather Summary</u></h3>
     <p>Current: <span id="Current">Overcast</span></p>
