@@ -29,8 +29,14 @@ header {
   font-family: 'Pompiere',veranda, sans-serif;
   height: 180px;
  
-
 }
+
+header figure.logo {
+  float: left;
+  margin: 0 2% 0 0;
+}
+
+
 
 h2 {
   text-align: center;
@@ -46,21 +52,19 @@ h2 {
   height: auto;
 }
 
-.weathersummary{
+.weathersummary
+{
   position: absolute;
-  top: 5px;
-  left: 20px;
+  top: 25px;
+  left: 15px;
+  padding: 0.5% 1% 0.5% 1%;
   background-color: #0075A2;
   border: 1px solid #E58F65;
   border-radius: 10px;
   opacity: .8;
-  display: grid;
   color: #EDD9A3;
   text-align: center;
-  
-  
-  
-  }
+    }
 
 
 .boxes ul {
@@ -129,6 +133,7 @@ h1, h2, h3, h4 {font-family: 'Pompiere', veranda, sans-serif;}
 
   p {font-family: 'Quicksand',veranda, sans-serif;
     line-height: 1em;
+    
          }
 
          .colors {
@@ -298,3 +303,8 @@ figure.home-img img {
   background-color: var(--accent3-color);
 }
 
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
