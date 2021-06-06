@@ -49,5 +49,16 @@
     border-right: 1px solid var(--accent3-color);
   }
 
+  .grid { 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    max-width: 100%;
+  }
   
+  .grid-col img {
+    margin: 10px auto;
+    position: relative;
+    max-width: 100%;
+  }
   

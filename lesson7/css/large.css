@@ -14,4 +14,19 @@ nav ul {
     padding: 0.5rem 1rem;
   }
 
-  
+.image:hover  {
+  box-shadow: 0 0 50px #333;
+}
+
+.grid { 
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  max-width: 100%;
+}
+
+.grid-col img {
+  margin: 10px auto;
+  position: relative;
+  max-width: 100%;
+}
