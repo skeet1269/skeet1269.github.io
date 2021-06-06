@@ -7,6 +7,6 @@ function getLastVisited() {
         document.getElementById('lastVisited').innerText = "You last visited " + diffDays +  " days ago.";
     } else {
         localStorage.lastVisited = new Date();
-        document.getElementById('lastVisited').innerText = '0';
+        document.getElementById('lastVisited').innerText = "You last visited 0 days ago.";
     }
 }
