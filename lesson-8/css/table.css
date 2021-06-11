@@ -3,11 +3,14 @@
 table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
+    padding: 2px 2px 2px 2px;
+    
   }
 
 td, th, tr {
     text-align: center;
-}
+    padding: 10px;
+   }
 
 td {
     font-size: smaller;
@@ -20,6 +23,7 @@ thead {
 
 tbody tr:first-child {
     background-color: #628ca6;
+    color: white;
 }
 
 tfoot {
