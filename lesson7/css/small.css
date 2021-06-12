@@ -222,7 +222,7 @@ display: none;
 
 
 
-.data {
+/*.data {
 display: block;
 padding: 0 5px 5px;
 font-size: 0.8rem;
@@ -234,7 +234,7 @@ font-weight: 700;
 font-size: 1rem;
 background-color: var(--accent3-color);
 color: var(--secondary-color);
-}
+}*/
 
 figure.home-img {
 width: 50%;

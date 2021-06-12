@@ -38,28 +38,42 @@
   .five-col {
     flex: 1 1 auto;
     background-color: white;
-    }
-    .five-col {
+  }
+  .five-col {
     border-bottom: 1px solid var(--accent3-color);
     border-left: 1px solid var(--accent3-color);
     text-align: center;
-    }
-    
-    .five {
+  }
+  
+  .five {
     border-right: 1px solid var(--accent3-color);
-    }
-    
-    .col-head {
+  }
+  
+  .col-head {
     display: block;
     padding: 5px;
     border-bottom: 1px solid #333;
     text-align: center;
-    }
-    
-    .fiveimg {
+  }
+  
+  .fiveimg {
     border-radius: 100px;
     padding: 0.25rem;
-    }
+  }
+  
+  .data {
+    display: block;
+    padding: 0 5px 5px;
+    font-size: 0.8rem;
+    text-align: center;
+  }
+  
+  .col-head {
+    font-weight: 700;
+    font-size: 1rem;
+    background-color: var(--accent3-color);
+    color: var(--secondary-color);
+  }
 
   
   

@@ -2,7 +2,7 @@
     main {
         grid-template-columns: 1fr 1fr 1fr;
     }
-}
+
 
 nav ul {
     padding-left: 1rem;
@@ -29,4 +29,5 @@ nav ul {
   margin: 10px auto;
   position: relative;
   max-width: 100%;
+}
 }

@@ -249,7 +249,7 @@ footer {
 
 .five {
 	border-right: 1px solid var(--accent3-color);
-}*/
+}
 
 .col-head {
 	display: block;
@@ -275,7 +275,7 @@ footer {
 	font-size: 1rem;
 	background-color: var(--accent3-color);
 	color: var(--secondary-color);
-}
+}*/
 
 figure.home-img {
   width: 50%;
