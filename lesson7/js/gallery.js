@@ -4,9 +4,9 @@ function getLastVisited() {
         const previous = localStorage.lastVisited;
         const diffTime = Math.abs(today - previous);
         const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
-        document.getElementById('lastVisited').innerText = "You last visited " + diffDays +  " days ago.";
+        document.getElementById('lastVisited').innerHTML = "You last visited " + diffDays +  " days ago.";
     } else {
         localStorage.lastVisited = new Date();
-        document.getElementById('lastVisited').innerText = "You last visited 0 days ago.";
+        document.getElementById('lastVisited').innerHTML = "You last visited 0 days ago.";
     }
 }
