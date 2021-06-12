@@ -28,7 +28,7 @@
     .navigation li:first-child {
       display: none;
     }
-  }
+  
 
   .five {
     display: flex;
@@ -61,4 +61,5 @@
     position: relative;
     max-width: 100%;
   }
+}
   

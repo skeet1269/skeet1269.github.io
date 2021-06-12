@@ -285,7 +285,7 @@ clear: both;
 }
 
 .grid { 
-	display: none;
+	display: grid;
 }
 
 .grid-col img {
