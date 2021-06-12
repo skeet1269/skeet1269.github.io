@@ -11,15 +11,15 @@ body {
   max-width: 960px;
 }
 
+main {
+
+}
+
 .jason {
 grid-template-columns: 1fr;
 grid-template-rows: 1fr 1fr;
 width: 100%;
 
-}
-
-main {
-  
 }
 
 
@@ -56,19 +56,7 @@ width:100%;
 height: auto;
 }
 
-.weathersummary
-{
-position: absolute;
-top: 25px;
-left: 15px;
-padding: 0.5% 1% 0.5% 1%;
-background-color: #0075A2;
-border: 1px solid #E58F65;
-border-radius: 10px;
-opacity: .8;
-color: #EDD9A3;
-text-align: center;
-  }
+
 
 
 .boxes ul {
@@ -84,6 +72,20 @@ margin: 20px;
 border-color: black;
 border: 2px solid black;
 }
+
+.weathersummary
+{
+/*position: absolute;*/
+top: 25px;
+left: 15px;
+padding: 0.5% 1% 0.5% 1%;
+background-color: #0075A2;
+border: 1px solid #E58F65;
+border-radius: 10px;
+opacity: .8;
+color: #EDD9A3;
+text-align: center;
+  }
 
 
 
@@ -220,9 +222,33 @@ display: none;
 
 }
 
+/*.five-col {
+flex: 1 1 auto;
+background-color: white;
+}
+.five-col {
+border-bottom: 1px solid var(--accent3-color);
+border-left: 1px solid var(--accent3-color);
+text-align: center;
+}
 
+.five {
+border-right: 1px solid var(--accent3-color);
+}
 
-/*.data {
+.col-head {
+display: block;
+padding: 5px;
+border-bottom: 1px solid #333;
+text-align: center;
+}
+
+.fiveimg {
+border-radius: 100px;
+padding: 0.25rem;
+}
+
+.data {
 display: block;
 padding: 0 5px 5px;
 font-size: 0.8rem;

@@ -11,15 +11,15 @@ body {
   max-width: 960px;
 }
 
+main {
+
+}
+
 .jason {
 grid-template-columns: 1fr;
 grid-template-rows: 1fr 1fr;
 width: 100%;
 
-}
-
-main {
-  
 }
 
 
@@ -56,19 +56,7 @@ width:100%;
 height: auto;
 }
 
-.weathersummary
-{
-position: absolute;
-top: 25px;
-left: 15px;
-padding: 0.5% 1% 0.5% 1%;
-background-color: #0075A2;
-border: 1px solid #E58F65;
-border-radius: 10px;
-opacity: .8;
-color: #EDD9A3;
-text-align: center;
-  }
+
 
 
 .boxes ul {
@@ -84,6 +72,20 @@ margin: 20px;
 border-color: black;
 border: 2px solid black;
 }
+
+.weathersummary
+{
+/*position: absolute;*/
+top: 25px;
+left: 15px;
+padding: 0.5% 1% 0.5% 1%;
+background-color: #0075A2;
+border: 1px solid #E58F65;
+border-radius: 10px;
+opacity: .8;
+color: #EDD9A3;
+text-align: center;
+  }
 
 
 
@@ -285,7 +287,7 @@ clear: both;
 }
 
 .grid { 
-	display: none;
+	display: grid;
 }
 
 .grid-col img {
@@ -293,5 +295,4 @@ clear: both;
   position: relative;
   max-width: 100%;
 }
-
 
