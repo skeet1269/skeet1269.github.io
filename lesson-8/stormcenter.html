@@ -46,7 +46,25 @@
    
   
 <main>
+<h2>Storm Information Center</h2>
 
+<form method="#" action="#"></form>
+
+<fieldset class="userinfo">
+  <legend>User Information</legend>
+  <label class="name">Full Name *
+    <input type="text" name="fullname" pattern="[a-zA-Z -.]{5,}" required/>
+  </label><br>
+  <label class="email">e-mail *
+    <input type="email" name="email" placeholder="anyname@email.com" required/>
+    </label><br>
+  <label class="phone">Phone # *
+      <input type="tel" name="tel" placeholder="###-###-####" required/>
+      </label><br> 
+  <label class="zip">Zip Code
+        <input type="text" name="zip" pattern="(\d{5}([\-]\d{4})?)" required/>
+    </label><br>
+  </fieldset>
 
 
    
