@@ -56,19 +56,7 @@ h2 {
   height: auto;
 }
 
-.weathersummary
-{
-  /*position: absolute;*/
-  top: 25px;
-  left: 15px;
-  padding: 0.5% 1% 0.5% 1%;
-  background-color: #0075A2;
-  border: 1px solid #E58F65;
-  border-radius: 10px;
-  opacity: .8;
-  color: #EDD9A3;
-  text-align: center;
-    }
+
 
 
 .boxes ul {
@@ -244,7 +232,7 @@ footer {
 .fiveimg {
 	border-radius: 100px;
 	padding: 0.25rem;
-}*/
+}
 
 .data {
 	display: block;
@@ -257,7 +245,7 @@ footer {
 	font-weight: 700;
 	font-size: 1rem;
 	background-color: var(--accent3-color);
-	color: var(--secondary-color);
+	color: var(--secondary-color);*/
 }
 
 figure.home-img {
