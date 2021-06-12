@@ -58,7 +58,7 @@ h2 {
 
 .weathersummary
 {
-  position: absolute;
+  /*position: absolute;*/
   top: 25px;
   left: 15px;
   padding: 0.5% 1% 0.5% 1%;
