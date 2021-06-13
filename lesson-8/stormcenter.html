@@ -66,6 +66,73 @@
     </label><br>
   </fieldset>
 
+  <fieldset class="storm">
+    <legend>Storm Report</legend>
+    <label class="date">Date of Storm
+    <input type="date" name="date" placeholder="MM/DD/YYY">
+    </label><br>
+    <label class="storm">Storm Type
+      <input name="storm" list="stormtype">
+      <datalist id="stormtype">
+        <option value="Flash Flood"></option>
+        <option value="Hail"></option>
+        <option value="Hurricane"></option>
+        <option value="Thunderstorm"></option>
+        <option value="Tornado"></option>
+      </datalist>
+    </label><br>
+
+    <label class="flexly" for="rating">Storm Severity: &nbsp;&nbsp;&nbsp;
+			<input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+			<span id="ratingvalue">5</span>
+		</label><br>
+
+		<datalist id="tickmarks">
+			<option value="0">
+			<option value="1">
+			<option value="2">
+			<option value="3">
+			<option value="4">
+			<option value="5">
+			<option value="6">
+			<option value="7">
+			<option value="8">
+			<option value="9">
+			<option value="10">
+		</datalist>
+
+    <label class="storm">Storm Region
+      <input name="region" list="stormregion">
+      <datalist id="stormregion">
+        <option value="Preston"></option>
+        <option value="Soda Springs"></option>
+        <option value="Fish Haven"></option>
+              </datalist>
+    </label><br>
+
+    <div>Are you in danger?</div>
+        <label class="danger"><input type="radio" name="indanger" value="yes"> Yes</label><br>
+        <label class="danger"><input type="radio" name="indanger" value="no"> No</label><br>
+        <label class="danger"><input type="radio" name="indanger" value="maybe"> Maybe</label><br>
+    
+  </fieldset>
+
+  <fieldset>
+    <legend>Additional Information</legend>
+    <label class="addcomments">
+    <textarea name="comment" rows="10" cols="35"></textarea>
+    </label>
+</fieldset>
+
+
+       
+  </label><br>
+  </fieldset>
+
+
+    
+
+
 
    
 
@@ -103,6 +170,7 @@
 <script src="js/script.js" async></script>
 <script src="js/webfontload.js"></script>
 <script src="/lesson6/js/windchill.js"></script>
+<script src="js/storm.js"></script>
 
       
 
