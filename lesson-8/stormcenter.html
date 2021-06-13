@@ -52,26 +52,26 @@
 
 <fieldset class="userinfo">
   <legend>User Information</legend>
-  <label class="name">Full Name *
+  <label class="name">Full Name *<br>
     <input type="text" name="fullname" pattern="[a-zA-Z -.]{5,}" required/>
   </label><br>
-  <label class="email">e-mail *
+  <label class="email">e-mail *<br>
     <input type="email" name="email" placeholder="anyname@email.com" required/>
     </label><br>
-  <label class="phone">Phone # *
+  <label class="phone">Phone # *<br>
       <input type="tel" name="tel" placeholder="###-###-####" required/>
       </label><br> 
-  <label class="zip">Zip Code
+  <label class="zip">Zip Code<br>
         <input type="text" name="zip" pattern="(\d{5}([\-]\d{4})?)" required/>
     </label><br>
   </fieldset>
 
   <fieldset class="storm">
     <legend>Storm Report</legend>
-    <label class="date">Date of Storm
+    <label class="date">Date of Storm<br>
     <input type="date" name="date">
     </label><br>
-    <label class="storm">Storm Type
+    <label class="storm">Storm Type<br>
       <input name="storm" list="stormtype">
       <datalist id="stormtype">
         <option value="Flash Flood"></option>
@@ -82,7 +82,7 @@
       </datalist>
     </label><br>
 
-    <label class="flexly" for="rating">Storm Severity: &nbsp;&nbsp;&nbsp;
+    <label class="flexly" for="rating">Storm Severity: &nbsp;&nbsp;&nbsp;<br>
 			<input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
 			<span id="ratingvalue">5</span>
 		</label><br>
@@ -101,7 +101,7 @@
 			<option value="10">
 		</datalist>
 
-    <label class="storm">Storm Region
+    <label class="storm">Storm Region<br>
       <input name="region" list="stormregion">
       <datalist id="stormregion">
         <option value="Preston"></option>

@@ -296,3 +296,22 @@ clear: both;
   max-width: 100%;
 }
 
+form {
+  background-color: #0075A2;
+  border-radius:10px 10px 10px 10px;
+  margin: 0 auto;
+  text-align: center;
+  max-width: 500px;
+  }
+
+form fieldset {
+  padding:5px;
+  border-radius:10px 10px 10px 10px;
+  text-align: center;
+}
+
+legend {
+  font-size: x-large;
+}
+
+
