@@ -69,7 +69,7 @@
   <fieldset class="storm">
     <legend>Storm Report</legend>
     <label class="date">Date of Storm
-    <input type="date" name="date" placeholder="MM/DD/YYY">
+    <input type="date" name="date">
     </label><br>
     <label class="storm">Storm Type
       <input name="storm" list="stormtype">
@@ -104,6 +104,7 @@
     <label class="storm">Storm Region
       <input name="region" list="stormregion">
       <datalist id="stormregion">
+        <option value="" disabled selected>Select Region. . .</option>
         <option value="Preston"></option>
         <option value="Soda Springs"></option>
         <option value="Fish Haven"></option>
