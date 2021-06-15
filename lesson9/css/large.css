@@ -1,0 +1,33 @@
+@media only screen and (min-width: 64em) {
+    main {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+
+nav ul {
+    padding-left: 1rem;
+  }
+  nav ul li {
+    flex-basis: auto;
+  }
+  nav a {
+    padding: 0.5rem 1rem;
+  }
+
+.image:hover  {
+  box-shadow: 0 0 50px #333;
+}
+
+.grid { 
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  max-width: 100%;
+}
+
+.grid-col img {
+  margin: 10px auto;
+  position: relative;
+  max-width: 100%;
+}
+}
