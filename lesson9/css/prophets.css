@@ -5,6 +5,10 @@ footer {
     margin: 0 auto;
 }
 
+main {
+    line-height: 0px;
+}
+
 h1 {
     color: #33C4FF;
 }
@@ -26,6 +30,7 @@ h3 {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
     gap: 10px;
+    
 }
 
 section {
@@ -41,7 +46,8 @@ section img {
     width: 75%;
     box-shadow: 0 0 5px 5px darkslategrey;
   }
-  
+
+
 
 footer {
     text-align:center;
