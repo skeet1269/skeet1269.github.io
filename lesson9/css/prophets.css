@@ -1,0 +1,55 @@
+header,
+main,
+footer {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #33C4FF;
+}
+
+
+h1,
+h2 {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+
+
+h3 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: center;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 10px;
+}
+
+section {
+    display: grid;
+    justify-items: center;
+    background-color: #33FCFF;
+    padding: 25px;
+    border-radius: 10px 10px 10px 10px;
+    
+}
+
+section img {
+    width: 75%;
+    box-shadow: 0 0 5px 5px darkslategrey;
+  }
+  
+
+footer {
+    text-align:center;
+    font-size: x-large;
+    font-family: 'Ubuntu', sans-serif;
+    margin-top:2em;
+    padding: 5px;
+    color: #33C4FF;
+    
+    }
+

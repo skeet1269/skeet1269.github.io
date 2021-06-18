@@ -11,9 +11,7 @@ body {
   max-width: 960px;
 }
 
-main {
 
-}
 
 .jason {
 grid-template-columns: 1fr;
@@ -173,6 +171,7 @@ p {font-family: 'Quicksand',veranda, sans-serif;
           width: 100%;
         
         }
+        
 footer {
   display: flex;
   background-color:#3F4B3B;
