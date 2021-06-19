@@ -43,7 +43,7 @@ margin: 0 2% 0 0;
 
 h2 {
 text-align: center;
-color: var(--primary-color);
+/*color: var(--primary-color);*/
 }
 
 .herodiv {margin: 10px auto; position: relative;
@@ -171,7 +171,44 @@ p {font-family: 'Quicksand',veranda, sans-serif;
           width: 100%;
         
         }
+
+        .cards {
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr;
+          gap: 10px;
+          
+      }
+      
+      section {
+          display: grid;
+          justify-items: center;
+          background-color: var(--accent1-color);
+          color: var(--accent2-color);
+          padding: 5px;
+          border-radius: 10px 10px 10px 10px;
+          
+          
+      }
+      
+      section img {
+          width: 80%;
+          box-shadow: 0 0 5px 5px darkslategrey;
+        }
+
+        #preston {
+          order: 1;
+        }
         
+        #soda {
+          order: 2;
+        }
+        
+        #fish {
+          order: 3;
+        }
+            
+
+          
 footer {
   display: flex;
   background-color:#3F4B3B;
