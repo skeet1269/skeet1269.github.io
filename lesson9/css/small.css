@@ -178,10 +178,12 @@ p {font-family: 'Quicksand',veranda, sans-serif;
 
         .cards {
           display: grid;
-          grid-template-columns: 1fr 1fr 1fr;
+          grid-template-columns: 1fr;
           gap: 10px;
           
       }
+
+    
       
       section {
           display: grid;
@@ -371,7 +373,6 @@ legend {
   text-align: center;
 }
 
-
-
-
-
+.data {
+  font-size: 0.8rem
+}

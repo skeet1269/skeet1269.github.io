@@ -7,15 +7,21 @@ fetch(requestURL)
   .then(function (jsonObject) {
     console.table(jsonObject);
     const towns = jsonObject["towns"];
+
+    const cards = [];
+
     for (let i = 0; i < towns.length; i++ ) {
         if (i == 0 || i == 2 || i == 6) {
             let card = document.createElement('section');
+            let data = document.createElement('div');
             let h2 = document.createElement('h2');
             let motto = document.createElement('h3');
             let yearFounded = document.createElement('p');
             let population = document.createElement('p');
             let rainfall = document.createElement('p');
             let townImage = document.createElement('img');
+
+            data.className = 'data';
             
             h2.textContent = towns[i].name;
             motto.textContent = towns[i].motto;
@@ -42,12 +48,16 @@ fetch(requestURL)
             } 
            
             
-            card.append(h2);
-            card.append(motto);
-            card.append(yearFounded);
-            card.append(population);
-            card.append(rainfall);
-            card.append(townImage);        
+            data.append(h2);
+            data.append(motto);
+            data.append(yearFounded);
+            data.append(population);
+            data.append(rainfall);   
+            card.append(townImage);  
+            card.append(data);  
         
-        document.querySelector('div.cards').append(card);
-  }}});
+            cards.push(card);
+  }}
+  const result = [cards[2], cards[0], cards[1]];
+  result.forEach(card => document.querySelector('div.cards').append(card))
+});
