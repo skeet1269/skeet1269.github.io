@@ -206,7 +206,19 @@ p {font-family: 'Quicksand',veranda, sans-serif;
         #fish {
           order: 3;
         }
-            
+ 
+        .homeArticle {
+          text-align: justify;
+          
+          }
+          
+         
+          
+          .homeImage {
+          float: right;
+  
+          }
+          
 
           
 footer {
