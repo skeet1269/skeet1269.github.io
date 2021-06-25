@@ -1,0 +1,132 @@
+@media only screen and (min-width: 32.5em) {
+    main {
+        grid-template-columns: 1fr 1fr;
+    }
+
+   /* nav ul {
+        display: flex;
+      }
+      nav ul li {
+        flex: 1 1 100%;
+      }
+    
+      nav a {
+        font-size: 1rem;
+      }
+    }*/
+
+    .navigation {
+      display: flex;
+    }
+    .navigation li {
+      display: block; /* change state in small view */
+      flex: 1 1 auto;
+    }
+    .navigation a {
+      text-align: center;
+    }
+    .navigation li:first-child {
+      display: none;
+    }
+  
+
+  .five {
+    display: flex;
+    flex-flow: row wrap;
+  }
+  
+  .five-col {
+    flex: 1 1 auto;
+    background-color: white;
+  }
+  .five-col {
+    border-bottom: 1px solid var(--accent3-color);
+    border-left: 1px solid var(--accent3-color);
+    text-align: center;
+  }
+  
+  .five {
+    border-right: 1px solid var(--accent3-color);
+  }
+  
+  .col-head {
+    display: block;
+    padding: 5px;
+    border-bottom: 1px solid #333;
+    text-align: center;
+  }
+  
+  .fiveimg {
+    border-radius: 100px;
+    padding: 0.25rem;
+  }
+  
+  .data {
+    display: block;
+    padding: 0 5px 5px;
+    text-align: center;
+  }
+
+  .data p {
+    font-size: 0.8rem
+  }
+  
+  .col-head {
+    font-weight: 700;
+    font-size: 1rem;
+    background-color: var(--accent3-color);
+    color: var(--secondary-color);
+  }
+
+  .grid { 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    max-width: 100%;
+  }
+  
+  .grid-col img {
+    margin: 10px auto;
+    position: relative;
+    max-width: 100%;
+  }
+
+  .cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    
+}
+
+section {
+    display: grid;
+    justify-items: center;
+    background-color: var(--accent1-color);
+    color: var(--accent2-color);
+    padding: 5px;
+    border-radius: 10px 10px 10px 10px;
+    max-width: 600px;
+    margin: .5rem auto;
+    display: grid;
+	  grid-template-columns: 1fr 1fr;
+    
+}
+
+h2 {
+  text-align:center;
+}
+
+section:nth-child(odd) img {
+	grid-column: 2;
+}
+
+section:nth-child(odd) .data {
+	grid-column: 1;
+	grid-row: 1;
+  padding: .75rem;
+}
+
+img {width: 100%; height: auto;padding:0;}
+
+  
+}
