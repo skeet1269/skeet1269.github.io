@@ -21,3 +21,5 @@ let thedate = new Date ();
     else {
        document.querySelector('#banner').style.display = 'none';
     }
+
+  
