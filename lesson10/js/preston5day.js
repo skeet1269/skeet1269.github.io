@@ -8,5 +8,14 @@ fetch(apiURL)
         let day = 0;
         const dayofWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 
+        const fiveDayForecast = jsObject.list.filter(forecast => forecast.dt_txt.includes("12:00:00"));
+
+        fiveDayForecast.forEach( x => {
+            let d = new Date(x.dt_txt);
+
+            document.getElementById(`dayofweek${day+1}`).textContent = dayofWeek[d.getDay()];
+            document.getElementById('forecast${day+1}').textContent = x.main.temp;
+        });
+
     });
     
