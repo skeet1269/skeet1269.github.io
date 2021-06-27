@@ -316,15 +316,15 @@ background-color: var(--accent3-color);
 color: var(--secondary-color);
 }*/
 
-figure.home-img {
+/*figure.home-img {
 width: 50%;
 margin: 0 0 0 2%;
 float: right;
 }
 
 figure.home-img img {
-width: 100%;
-}
+width: 50%;
+}*/
 
 #banner {
 color: var(--secondary-color);

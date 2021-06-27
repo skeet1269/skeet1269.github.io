@@ -98,6 +98,20 @@
     
 }
 
+.weathersummary
+{
+position: absolute;
+top: 25px;
+left: 15px;
+padding: 0.5% 1% 0.5% 1%;
+background-color: #0075A2;
+border: 1px solid #E58F65;
+border-radius: 10px;
+opacity: .8;
+color: #EDD9A3;
+text-align: center;
+  }
+
 section {
     display: grid;
     justify-items: center;
@@ -128,5 +142,15 @@ section:nth-child(odd) .data {
 
 img {width: 100%; height: auto;padding:0;}
 
+figure.home-img {
+  width: 50%;
+  margin: 0 0 0 2%;
+  float: right;
+  }
+  
+  figure.home-img img {
+  width: 50%;
+
   
 }
+
