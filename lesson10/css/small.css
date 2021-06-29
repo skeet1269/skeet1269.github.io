@@ -77,17 +77,18 @@ border: 2px solid black;
 
 .weathersummary
 {
-/*position: absolute;*/
-top: 25px;
-left: 15px;
-padding: 0.5% 1% 0.5% 1%;
-background-color: #0075A2;
-border: 1px solid #E58F65;
-border-radius: 10px;
-opacity: .8;
-color: #EDD9A3;
-text-align: center;
-  }
+  /*position: absolute;*/
+  top: 25px;
+  left: 15px;
+  padding: 0.5% 1% 0.5% 1%;
+  background-color: #0075A2;
+  border: 1px solid #E58F65;
+  border-radius: 10px;
+  opacity: .8;
+  color: #EDD9A3;
+  text-align: center;
+    }
+
 
 
 
