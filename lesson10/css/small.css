@@ -4,13 +4,17 @@
 
 body {
   background-color: #EDD9A3;
+}
+
+main {
+  
   padding: 5px 25px;
   font-size: 18px;
   margin:0 auto;
   font-family: 'Quicksand', veranda, sans-serif;
   max-width: 960px;
-}
 
+}
 
 
 .jason {
@@ -184,10 +188,14 @@ p {font-family: 'Quicksand',veranda, sans-serif;
           
       }
 
+      #forecast {
+        display: none;
+      }
+
     
       
       section {
-          display: grid;
+         
           justify-items: center;
           background-color: var(--accent1-color);
           color: var(--accent2-color);
@@ -229,7 +237,7 @@ p {font-family: 'Quicksand',veranda, sans-serif;
 
           
 footer {
-  display: flex;
+  
   background-color:#3F4B3B;
   margin-top:2em;
   padding: 5px;
@@ -237,6 +245,16 @@ footer {
   color:#A9B2AC;
   text-align:center;
   font-family: 'Pompiere',veranda, sans-serif;
+  max-width: 960px;
+  font-size: 18px;
+  margin:0 auto;
+  font-family: 'Quicksand', veranda, sans-serif;
+  
+  
+  }
+
+  iframe {
+    display: none;
   }
 
 .navigation {

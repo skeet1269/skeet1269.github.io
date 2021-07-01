@@ -1,5 +1,5 @@
 function getdate() {
-    document.getElementById("lastmodified").innerText =  "Last Modified: " + document.lastModified;
+    document.getElementById("lastmodified").innerText =  "Last Modified:" + document.lastModified;
 }
 
 function togglemenu() {
@@ -13,7 +13,7 @@ const fulldate = new Intl.DateTimeFormat("en-US" , { dateStyle: "full" }).format
 
 datefield.innerHTML = `<em>${fulldate}</em>`;
 
-let thedate = new Date ();
+let thedate = new Date();
 
     if (thedate.getDay() == 5) {
     document.querySelector('#banner').style.display = "block";

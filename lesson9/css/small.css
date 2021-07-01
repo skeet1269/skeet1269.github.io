@@ -228,7 +228,7 @@ p {font-family: 'Quicksand',veranda, sans-serif;
 
           
 footer {
-  display: flex;
+  display: block;
   background-color:#3F4B3B;
   margin-top:2em;
   padding: 5px;

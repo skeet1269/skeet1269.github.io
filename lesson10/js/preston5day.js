@@ -1,4 +1,4 @@
-let cityID = 5604473;
+let cityID = "5604473";
 let appid = "5739b5e3d3fc1d5a757317dd290411fc";
 const apiURL = "https://api.openweathermap.org/data/2.5/forecast?q=5604473&appid=5739b5e3d3fc1d5a757317dd290411fc&units=imperial"
 fetch(apiURL)
@@ -9,7 +9,7 @@ fetch(apiURL)
         const dayofweek = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
 
     
-    const fiveDayForecast = jsObject2.list.filter( forecast => forecast.dt_txt.includes('18:00:00'));
+    const fiveDayForecast = jsObject.list.filter( forecast => forecast.dt_txt.includes('18:00:00'));
 
     
     fiveDayForecast.forEach( x => {

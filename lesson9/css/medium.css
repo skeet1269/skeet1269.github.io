@@ -128,5 +128,9 @@ section:nth-child(odd) .data {
 
 img {width: 100%; height: auto;padding:0;}
 
+footer {
+  display: flex;
+}
   
 }
+
