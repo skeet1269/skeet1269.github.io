@@ -1,0 +1,102 @@
+@media only screen and (min-width: 64em) {
+    main {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+ 
+
+
+nav ul {
+    padding-left: 1rem;
+  }
+  nav ul li {
+    flex-basis: auto;
+  }
+  nav a {
+    padding: 0.5rem 1rem;
+  }
+
+.image:hover  {
+  box-shadow: 0 0 50px #333;
+}
+
+.grid { 
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  max-width: 100%;
+}
+
+.grid-col img {
+  margin: 10px auto;
+  position: relative;
+  max-width: 100%;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  gap: 10px; 
+}
+
+section {
+  display: block;
+  /*justify-items: center;
+  background-color: var(--accent1-color);
+  color: var(--accent2-color);
+  padding: 5px;
+  border-radius: 10px 10px 10px 10px;
+  max-width: 600px;
+  margin: .5rem auto;
+  display: grid;
+  grid-template-columns: 1fr;*/
+}
+
+section img {
+  grid-column: 1;
+	grid-row: 2;
+  padding: .75rem;
+}
+
+section .data {
+  grid-column: 1;
+	grid-row: 1;
+  padding: .75rem;
+}
+
+section:nth-child(odd) img {
+	grid-column: 1;
+	grid-row: 2;
+  padding: .75rem;
+}
+
+section:nth-child(odd) .data {
+  grid-column: 1;
+	grid-row: 1;
+  padding: .75rem;
+}
+
+/*.weathersummary
+{
+  position: absolute;
+  top: 25px;
+  left: 15px;
+  padding: 0.5% 1% 0.5% 1%;
+  background-color: #0075A2;
+  border: 1px solid #E58F65;
+  border-radius: 10px;
+  opacity: .8;
+  color: #EDD9A3;
+  text-align: center;
+    }*/
+
+figure.home-img {
+  width: 50%;
+  margin: 0 0 0 2%;
+  float: right;
+      }
+      
+figure.home-img img {
+   width: 50%;
+
+}}
