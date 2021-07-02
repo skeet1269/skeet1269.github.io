@@ -1,5 +1,5 @@
 function getdate() {
-    document.getElementById("lastmodified").innerText =  "Last Modified:" + document.lastModified;
+    document.getElementById("lastmodified").innerHTML =  "Last Modified:" + document.lastModified;
 }
 
 function togglemenu() {
