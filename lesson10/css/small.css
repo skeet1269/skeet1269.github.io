@@ -209,7 +209,7 @@ p {font-family: 'Quicksand',veranda, sans-serif;
           width: 80%;
           box-shadow: 0 0 5px 5px darkslategrey;
         }
-
+       
         #preston {
           order: 1;
         }
@@ -231,7 +231,7 @@ p {font-family: 'Quicksand',veranda, sans-serif;
           
           .homeImage {
           float: right;
-  
+            
           }
           
 
