@@ -201,13 +201,14 @@ p {font-family: 'Quicksand',veranda, sans-serif;
           color: var(--accent2-color);
           padding: 5px;
           border-radius: 10px 10px 10px 10px;
+          margin: 5px;
           
           
       }
       
       section img {
-          width: 80%;
-          box-shadow: 0 0 5px 5px darkslategrey;
+          width: 90%;
+                   
         }
        
         #preston {
@@ -239,11 +240,10 @@ p {font-family: 'Quicksand',veranda, sans-serif;
             left: 15px;
             padding: 0.5% 1% 0.5% 1%;
             background-color: var(--accent2-color);
-            border: 1px solid #E58F65;
             border-radius: 10px;
-            opacity: .8;
             color: var(--accent1-color);
             text-align: center;
+            margin: 5px;
           }
 
          
