@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>WDD 230 Weather Site</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Pompiere&family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <script src="js/script.js" async></script>
+    <script src="js/webfontload.js"></script>
+    <script src="/lesson10/js/windchill.js"></script>
+    <script src="js/fishapi.js"></script>
+    <script src="js/fish5day.js"></script>
+   
+
+  </head>
+  <body onload="getdate();">
+    
+   
+    
+    <header class="clearfix">
+            <figure class=logo>
+            <img src="/lesson6/images/weather.png" alt="Site Icon">
+          </figure>
+    <div class="jason">
+        <h1>Southeast Idaho Now</h1>
+        <h3>All You Need To Start Your Day</h3>
+      </div>
+        
+</header>
+   
+    <nav>
+        <ul class="navigation">
+            <li><a class="ham" href="#" onclick="togglemenu()">☰ Menu</a></li> 
+            <li><a href="home.html">Home</a></li>
+            <li><a href="preston.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="fish-haven.html" class="active">Fish Haven</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            
+        </ul>
+    </nav>
+
+    
+
+   
+  
+<main>
+
+    <h2>Fish Haven</h2>
+    <div class="herodiv">
+      <picture>
+        <source media="(max-width: 360px)" srcset="images/fishsmall.jpg">
+        <source media="(max-width: 680px)" srcset="images/fishmedium.jpg">
+        <source media="(max-width: 960px)" srcset="images/fishlarge.jpg">
+        <img class="heroimg" src="/lesson11/images/fish.jpg" alt="Barn">
+      </picture>
+      
+        <section class="weathersummary">
+    <h3><u>Weather Summary</u></h3>
+    <p>Conditions: <span id="Conditions"></span></p>       
+    <p>Current: <span id="Current"></span>&deg;F</p>
+    <p>High: <span id="High"></span>&deg;F</p>
+    <p>Wind Chill: <span id="WindChill"></span>&deg;F</p>
+    <p>Humidity: <span id="Humidity"></span>&deg;F</p>
+    <p>Wind Speed: <span id="WindSpeed"></span>mph</p>
+    
+  
+    </section>
+</div>
+
+<h2 id="forecast">5 Day Forecast</h2>
+
+<div class="five">
+	<div class="five-col">
+		<span class="col-head">SUN</span>
+		<!--<img class="fiveimg" src="/lesson6/images/sunny.png" alt="sunny">-->
+		<span class="data">Sunny</span>
+	</div>
+	<div class="five-col">
+		<span class="col-head">MON</span>
+		<!--<img class="fiveimg" src="/lesson6/images/sunny.png" alt="sunny">-->
+		<span class="data">Sunny</span>
+	</div>
+	<div class="five-col">
+		<span class="col-head">TUE</span>
+		<!--<img class="fiveimg" src="/lesson6/images/partly.png" alt="partly cloudy">-->
+		<span class="data">Partly Cloudy</span>
+	</div>
+	<div class="five-col">
+		<span class="col-head">WED</span>
+		<!--<img class="fiveimg" src="/lesson6/images/cloudy.png" alt="cloudy">-->
+		<span class="data">Cloudy</span>
+	</div>
+	<div class="five-col">
+		<span class="col-head">THUR</span>
+		<!--<img class="fiveimg" src="/lesson6/images/showers.png" alt="showers">-->
+		<span class="data">Showers</span>
+	</div>
+
+</div>
+
+<h2>Excuse Me,There is a fly in my water!</h2>
+
+  <section class="article">
+  <figure class="home-img">
+
+   <picture>
+    
+    <img src="images/fly-fishing.jpg" alt="fishing">
+    
+    </picture>
+    
+  </figure>
+  <div class="paragraph">
+<p>. . .and for good reason! You have cast that fly into some of the best fishing waters around. We aren't called Fish Haven for nothing.
+    Enjoy a piecefully time with your rod and the Bonneville cutthroat trout in Fish Haven Creek, thanks to partners like Trout Unlimited
+    how help pave the way for them to return to natural spanning grounds once blocked.<br><br> If you want something bigger and want to enjoy being
+    out on the boat then vist Bear Lake. Whatever you speed, and whatever your style, we have it here for you in Fish Haven. Thanks for coming,
+    and do stay awhile.
+
+  </p>
+  </div>
+</section>
+  
+
+  </main>
+
+    <footer>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5926.478648867026!2d-111.40049067167624!3d42.03804813516124!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x875415e9bdab006f%3A0xc1864ed86dd2b0e4!2sFish%20Haven%2C%20ID%2083287!5e0!3m2!1sen!2sus!4v1625537181903!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      <div class="info">
+        
+        <p><u>Contact Information</u></p>
+        <p>4400 Granny Smith Circle <br>
+        Phone #: 208.555.5555 <br>
+        email: info@southeastidahonow.us</p>
+      <p>&copy; <span id="currentYear">2021</span> 
+          | Jason Skelly | Alabama | 
+          <a href="https://www.byui.edu/online" target="_blank">
+          BYUI Online Learning</a><br>
+          <p>Forecast Provided by: <a href="https://openweathermap.org">Open Weather Map</a></p>
+        
+
+        <p><date></date></p>
+        <!--<p id="lastmodified"> -->
+            
+          <!-- </p> -->
+        </div>  
+      </footer>
+
+      <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+
+      <script>WebFont.load({
+        google: {
+          families: ["Pompiere","Quicksand"]
+        }
+      });</script>
+
+
+
+      
+
+     </body> 
+     </html>
