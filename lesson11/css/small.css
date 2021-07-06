@@ -60,6 +60,7 @@ h3 {
 .heroimg {
 width:100%;
 height: auto;
+border-radius: 10px 10px 10px 10px;
 }
 
 
