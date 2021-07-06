@@ -234,7 +234,14 @@ p {font-family: 'Quicksand',veranda, sans-serif;
             
           }
           
-
+          .events {
+            justify-items: center;
+            background-color: var(--accent2-color);
+            color: var(--accent1-color);
+            padding: 5px;
+            margin: 25px;
+            border-radius: 10px 10px 10px 10px;
+          }
           
 footer {
   
