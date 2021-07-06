@@ -13,7 +13,7 @@ const requestURL = "https://byui-cit230.github.io/weather/data/towndata.json";
             const events = town.events;
     
             for (let event of events) {
-              const eventName = document.createElement("li");
+              const eventName = document.createElement("p");
               eventName.textContent = event;
               eventList.appendChild(eventName);
             }
