@@ -3,7 +3,6 @@
 body {
     background-color: #3692C3;
     padding: 5px 5px;
-    /*font-size: 18px;*/
     margin:0 auto;
     font-family: 'Open Sans Condensed', veranda, sans-serif;
 }
@@ -28,7 +27,7 @@ header {
     }
     .navigation a {
     display: block;
-    padding: 0.75rem;
+    padding: 5px;
     text-align: center;
     text-decoration: none;
     color: #3692C3;
@@ -38,3 +37,19 @@ header {
     color: #482728;
     background-color: #3692C3;
     }
+
+  
+        
+
+    
+    .responsive li {
+        display: block;
+        }
+
+    .active {
+        color: #3692C3;
+        background-color: #74C365;
+        font-weight: 1000;
+            }
+
+    
