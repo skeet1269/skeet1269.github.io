@@ -9,11 +9,17 @@ body {
 
 header {
     background-color:#D9f7FA;
-    padding:25px;
+    padding: 1px;
     color:#482728;
     text-align:center;
     font-family: 'Raleway',veranda, sans-serif;
 }
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
 
 
 
@@ -39,10 +45,8 @@ header {
     color: #482728;
     background-color: #3692C3;
     }
-
-  
-        
-
+    
+   
     
     .responsive li {
         display: block;
