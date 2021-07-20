@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Raleway:wght@100&display=swap');
+
+body {
+    background-color: #74C365;
+    padding: 5px 5px;
+    /*font-size: 18px;*/
+    margin:0 auto;
+    font-family: 'Open Sans Condensed', veranda, sans-serif;
+}
