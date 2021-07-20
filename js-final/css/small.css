@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Raleway:wght@100&display=swap');
+
+body {
+    background-color: #3692C3;
+    padding: 5px 5px;
+    /*font-size: 18px;*/
+    margin:0 auto;
+    font-family: 'Open Sans Condensed', veranda, sans-serif;
+}
+
+header {
+    background-color:#D9f7FA;
+    padding:25px;
+    color:#482728;
+    text-align:center;
+    font-family: 'Raleway',veranda, sans-serif;
+}
+
+.navigation {
+    list-style: none;
+    padding: 0;
+    }
+    .navigation li:first-child {
+    display: block;
+    }
+    .navigation li {
+    display: none;
+    }
+    .navigation a {
+    display: block;
+    padding: 0.75rem;
+    text-align: center;
+    text-decoration: none;
+    color: #3692C3;
+    font-weight: 1000;
+    }
+    .navigation a:hover {
+    color: #482728;
+    background-color: #3692C3;
+    }

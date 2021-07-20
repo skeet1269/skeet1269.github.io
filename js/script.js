@@ -1,3 +1,3 @@
-function getdate() {
-    document.getElementById("lastmodified").innerText =  "Last Modified: " + document.lastModified;
+function togglemenu() {
+    document.getElementsByClassName("navigation")[0].classList.toggle("responsive");
 }
