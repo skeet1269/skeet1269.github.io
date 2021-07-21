@@ -15,11 +15,11 @@ header {
     font-family: 'Raleway',veranda, sans-serif;
 }
 
-.clearfix:after {
+/*.clearfix:after {
     content: "";
     display: table;
     clear: both;
-    }
+    }*/
 
 
 
@@ -58,9 +58,31 @@ header {
         font-weight: 1000;
             }
 
-  
+            iframe {
+                display: none;
+              }
 
-    
+            footer {
+  
+                background-color:#D9f7fa;
+                padding: 10px;
+                width: auto;
+                color:#482728;
+                text-align:center;
+                font-family: 'Raleway',veranda, sans-serif;
+                margin:0 auto;
+                max-width: 960px;
+                font-family: 'Open Sans Condensed', veranda, sans-serif;
+                
+                
+                }  
+
+                .info {
+                    grid-template-columns: 1fr;
+                    grid-template-rows: 1fr 1fr;
+                    width: 100%;
+                  
+                  } 
 
    
 
