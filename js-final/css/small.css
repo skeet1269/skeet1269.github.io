@@ -45,7 +45,7 @@ main {
     text-align: center;
     text-decoration: none;
     color: #3692C3;
-    font-weight: 1000;
+    font-weight: 900;
     }
     .navigation a:hover {
     color: #482728;
@@ -61,7 +61,7 @@ main {
     .active {
         color: #3692C3;
         background-color: #74C365;
-        font-weight: 1000;
+        font-weight: 900;
             }
 
             .cards {
