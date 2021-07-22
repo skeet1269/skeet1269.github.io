@@ -1,12 +1,13 @@
 const requestURL = 'https://skeet1269.github.io/js-final/business.json';
 
 fetch(requestURL)
-  .then(function (response) {
-    return response.json();
-  })
-  .then(function (jsonObject) {
+.then((response) => response.json())
+.then((jsonObject) => {
+  
     console.table(jsonObject);
     const business = jsonObject["business"];
+
+    console.log(business);
 
     const cards = [];
 
@@ -16,7 +17,7 @@ fetch(requestURL)
             let data = document.createElement('div');
             let h2 = document.createElement('h2');
             let motto = document.createElement('h3');
-            let Phone # = document.createElement('p');
+            let Phone = document.createElement('p');
             let Address = document.createElement('p');
             let townImage = document.createElement('img');
 
