@@ -1,0 +1,30 @@
+{
+    "business": [
+      {
+        "name": "Golden Rule BBQ",
+        "photo": "sodasprings.jpg",
+        "motto": "Love thy neighbor, give them barbeque.",
+        "Phone": 205.621.7427,
+        "Address": 4290 Hwy 52 W,
+        
+      },
+      {
+        "name": "Cahaba Dental Arts",
+        "photo": "springfield.jpg",
+        "motto": "Dedicated to great dental experience.",
+        "Phone": 205.267.1216,
+        "Address": 3333 Helena Road,
+       
+        
+      },
+      {
+        "name": "Minuteman Press",
+        "photo": "preston.jpg",
+        "motto": "We design, print & promote...YOU!",
+        "Phone": 205.621.2722,
+        "Address": 4013 Helena Road,
+        
+        
+      }
+    ]
+  }

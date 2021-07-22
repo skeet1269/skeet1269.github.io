@@ -58,31 +58,46 @@ header {
         font-weight: 1000;
             }
 
+            .cards {
+                display: grid;
+                grid-template-columns: 1fr;
+                gap: 10px;
+                
+            }
+
             iframe {
                 display: none;
               }
 
+              .info {
+                grid-template-columns: 1fr;
+                grid-template-rows: 1fr 1fr;
+                width: 100%;
+              
+              }
+
+              
+
             footer {
-  
+                
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                align-items: center;
                 background-color:#D9f7fa;
                 padding: 10px;
+                height: 225px;
                 width: auto;
                 color:#482728;
                 text-align:center;
                 font-family: 'Raleway',veranda, sans-serif;
-                margin:0 auto;
-                max-width: 960px;
+                margin: auto;
+                width: 100%;
                 font-family: 'Open Sans Condensed', veranda, sans-serif;
                 
                 
                 }  
-
-                .info {
-                    grid-template-columns: 1fr;
-                    grid-template-rows: 1fr 1fr;
-                    width: 100%;
+            
                   
-                  } 
 
    
 
