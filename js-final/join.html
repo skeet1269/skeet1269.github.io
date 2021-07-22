@@ -37,6 +37,70 @@
  </header>
   
     <main>
+
+      <h2>Membership Application</h2>
+
+<form method="GET" action="thanks.html">
+
+<fieldset class="userinfo">
+  <legend>User Information</legend>
+  <label class="name">First Name *<br>
+    <input type="text" name="firstname" pattern="[a-zA-Z -.]{5,}" required/>
+  </label><br>
+  <label class="name">Last Name *<br>
+    <input type="text" name="lastname" pattern="[a-zA-Z -.]{5,}" required/>
+  </label><br>
+  <label class="name">Title<br>
+    <input type="text" name="title" pattern="[a-zA-Z -.]{5,}"/>
+  </label><br>
+  <label class="email">e-mail *<br>
+    <input type="email" name="email" placeholder="anyname@email.com" required/>
+    </label><br>
+  <label class="phone">Cell Phone # *<br>
+      <input type="tel" name="tel" placeholder="###-###-####" required/>
+      </label><br> 
+  
+  </fieldset>
+
+  <fieldset class="businessInfo">
+    <legend>Business Information</legend>
+    <label class="name">Business Name *<br>
+      <input type="text" name="businessname" pattern="[a-zA-Z -.]{5,}" required/>
+    </label><br>
+    <label class="name">Business Address <br>
+      <input type="text" name="businessaddress" pattern="[a-zA-Z -.]{5,}"/>
+    </label><br>
+    <label class="zip">Zip Code<br>
+      <input type="text" name="zip" pattern="(\d{5}([\-]\d{4})?)" required/>
+  </label><br>
+      
+    </label><br>
+
+
+    
+    
+  </fieldset>
+
+  <fieldset>
+    
+    <legend>Business Description</legend>
+    <label class="businessdescription">
+    <textarea name="comment" rows="10" cols="55"></textarea>
+    </label>
+
+    <div>Membership Levels</div>
+    <label class="level"><input type="radio" name="levels" value="Non-Profit"> Non-Profit - $100</label><br>
+    <label class="level"><input type="radio" name="levels" value="Bronze"> Bronze - $200</label><br>
+    <label class="level"><input type="radio" name="levels" value="Silver"> Silver - $400</label><br>
+    <label class="level"><input type="radio" name="levels" value="Gold"> Gold - $1000</label><br>
+</fieldset>
+
+<div class="submitbutton">
+
+  <input type="submit" value="Submit Information Here" class="sbutton"><br>
+  
+</div>
+    
         
         
     </main>

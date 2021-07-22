@@ -15,11 +15,11 @@ header {
     font-family: 'Raleway',veranda, sans-serif;
 }
 
-/*.clearfix:after {
+.clearfix:after {
     content: "";
     display: table;
     clear: both;
-    }*/
+    }
 
 
 main {
@@ -143,7 +143,33 @@ main {
         grid-column: 3;
       }
 
-              
+      form {
+        background-color: #74c365;
+        border-radius:10px 10px 10px 10px;
+        margin: 0 auto;
+        text-align: center;
+        max-width: 960px;
+        }
+      
+      form fieldset {
+        padding:5px;
+        border-radius:10px 10px 10px 10px;
+        text-align: center;
+      }
+      
+      legend {
+        font-size: x-large;
+        color: #482728;
+      }
+      
+      .thanks {
+        text-align: center;
+      }
+      
+      .data {
+        font-size: 0.8rem
+      }
+                    
 
             footer {
                 
