@@ -12,7 +12,7 @@ fetch(requestURL)
     const cards = [];
 
     for (let i = 0; i < business.length; i++ ) {
-        if (i == 0 || i == 2 || i == 3) {
+        if (i == 0 || i == 1 || i == 2) {
             let card = document.createElement('section');
             let data = document.createElement('div');
             let h2 = document.createElement('h2');
@@ -29,20 +29,20 @@ fetch(requestURL)
             Address.textContent = 'Address: ' + business[i].Address;
             
 
-            if (i == 6) {
-                townImage.setAttribute('src', '../lesson9/images/bridge.jpg')
+            if (i == 0) {
+                townImage.setAttribute('src', '../js-final/images/goldenruleweb.png')
                 townImage.setAttribute('alt', 'Image of ' + business[i].name)
-                card.setAttribute('id', 'preston')
+                card.setAttribute('id', 'golden')
               }
 
-              if (i == 2) {
-                townImage.setAttribute('src', '../lesson9/images/fishweb.jpg')
+              if (i == 1) {
+                townImage.setAttribute('src', '../js-final/images/cahabaweb.png')
                 townImage.setAttribute('alt', 'Image of ' + business[i].name)
                 card.setAttribute('id', 'fish')
               }
 
-            if (i == 0) {
-              townImage.setAttribute('src', '../lesson9/images/sodaweb.jpg')
+            if (i == 2) {
+              townImage.setAttribute('src', '../js-final/images/minutemanweb.png')
               townImage.setAttribute('alt', 'Image of ' + business[i].name)
               card.setAttribute('id', 'soda')
             } 

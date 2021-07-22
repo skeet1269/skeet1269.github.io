@@ -22,7 +22,13 @@ header {
     }*/
 
 
-
+main {
+    padding: 5px 25px;
+  
+  margin:0 auto;
+  
+  max-width: 960px;
+}
 .navigation {
     list-style: none;
     padding: 0;
@@ -62,8 +68,28 @@ header {
                 display: grid;
                 grid-template-columns: 1fr;
                 gap: 10px;
+                align-items: center;
                 
             }
+
+            section {
+         
+                justify-items: center;
+                background-color: #74c365;
+                padding: 5px;
+                border-radius: 10px 10px 10px 10px;
+                margin: 5px;
+                height: 95%;
+                display: block;
+                text-align: center;
+                
+            }
+            
+            
+            section img {
+                width: 50%;
+              }
+
 
             iframe {
                 display: none;
@@ -98,6 +124,24 @@ header {
   color: #3692C3;
   text-align: center;
     }
+
+     
+    
+      
+      
+      .generic-grid {
+        display: grid;
+        grid-template-columns: auto / auto auto auto;
+      }
+      
+      .left {
+        grid-column: 2;
+        padding: 10px;
+      }
+      
+      .right {
+        grid-column: 3;
+      }
 
               
 

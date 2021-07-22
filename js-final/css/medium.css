@@ -26,7 +26,7 @@
 
 .weathersummary
 {
-  position: absolute;
+  /*position: absolute;*/
   top: 25px;
   left: 15px;
   padding: 0.5% 1% 0.5% 1%;
@@ -35,6 +35,10 @@
   color: #3692C3;
   text-align: center;
     }
+  section {
+    display: block;
+    text-align: center;
+  }
 
       footer {
         display: flex;
