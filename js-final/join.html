@@ -38,11 +38,12 @@
   
     <main>
 
-      <h2>Membership Application</h2>
+      <h2><center>Membership Application</center></h2>
 
 <form method="GET" action="thanks.html">
 
 <fieldset class="userinfo">
+  <p>Thank you for taking the time to invest in your business and community by joining the Helena Chamber of Commerce.<br> Items marked with an * are required.</p>
   <legend>User Information</legend>
   <label class="name">First Name *<br>
     <input type="text" name="firstname" pattern="[a-zA-Z -.]{5,}" required/>
@@ -67,6 +68,9 @@
     <label class="name">Business Name *<br>
       <input type="text" name="businessname" pattern="[a-zA-Z -.]{5,}" required/>
     </label><br>
+    <label class="name">Business Website<br>
+      <input type="text" name="businessname" pattern="[a-zA-Z -.]{5,}" placeholder="www.yourbusiness.com" required/>
+    </label><br>
     <label class="name">Business Address <br>
       <input type="text" name="businessaddress" pattern="[a-zA-Z -.]{5,}"/>
     </label><br>
@@ -87,8 +91,53 @@
     <label class="businessdescription">
     <textarea name="comment" rows="10" cols="55"></textarea>
     </label>
+  
+    </fieldset>
 
-    <div>Membership Levels</div>
+    <fieldset>
+      <legend>Membership Packages</legend>
+      <p><b>Non-Profit -</b> <u>Reserved for Not For Profit Organizations</u> </p>
+     
+      <ul>
+        <li>One FREE listing in the directory (print/online).</li>
+        <li>Use of Chamber Conference Rooms.</li>
+        <li>Access to all general Chamber events and programs.</li>
+      </ul>
+      
+      <p><b>Bronze -</b> <u>25 or less employees</u></p>
+      <ul>
+        <li>One FREE listing in the directory (print/online).</li>
+        <li>Social Media listing.</li>
+        <li>Use of Chamber Conference Room.s</li>
+        <li>Access to all general Chamber events and programs.</li>
+        <li>Two Free VIP Event Passes.</li>
+        <li>Promotion of Member News, Events and Discounts.</li>
+      </ul>
+
+      <p><b>Silver -</b> <u>50 or less employees</u></p>
+      <ul>
+        <li>Three FREE listing in the directory (print/online).</li>
+        <li>Use of Chamber Conference Rooms.</li>
+        <li>Access to all general Chamber events and programs.</li>
+        <li>Four Free VIP Event Passes.</li>
+        <li>Promotion of Member News, Events and Discounts.</li>
+        <li>Excel membership database available upon request.</li>
+        <li>Access to Chamber Economic Development Data.</li>
+      </ul>
+
+      <p><b>Gold -</b> <u>50 or more employees</u></p>
+      <ul>
+        <li>Same as above plus. . .</li>
+        <li>Five FREE listing in the directory including Logo (print/online).</li>
+        <li>Access to Six Exclusive Investor-Only Events, including VIP reception at Annual Meeting.</li>
+        <li>Access to key business and governmental leaders.</li>
+        <li>Eligible to serve on the Board of Directors and committeess.</li>
+      </ul>
+
+    </fieldset>
+
+    <fieldset>
+    <legend>Choose Option</legend>
     <label class="level"><input type="radio" name="levels" value="Non-Profit"> Non-Profit - $100</label><br>
     <label class="level"><input type="radio" name="levels" value="Bronze"> Bronze - $200</label><br>
     <label class="level"><input type="radio" name="levels" value="Silver"> Silver - $400</label><br>
@@ -127,7 +176,7 @@
         <p>&copy; <span id="currentYear">2021</span> 
             | City of Helena | </p>
             
-            <p>Forecast Provided by: <a href="https://openweathermap.org">Open Weather Map</a></p>
+            
         <p id="lastmodified">
           
         </p>
