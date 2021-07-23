@@ -26,15 +26,16 @@
 
 .weathersummary
 {
-  /*position: absolute;*/
-  top: 25px;
-  left: 15px;
+  position: absolute;
+  top: 5px;
+  left: 5px;
   padding: 0.5% 1% 0.5% 1%;
   background-color: #D9f7fa;
   border-radius: 10px;
   color: #3692C3;
   text-align: center;
     }
+    
   section {
     display: block;
     text-align: center;
