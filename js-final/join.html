@@ -71,11 +71,14 @@
     <label class="name">Business Website<br>
       <input type="url" size="60" minlength="3" maxlength="64" name="website"  placeholder="http://www.yourbusiness.com"/>
     </label><br>
-    <label class="name">Business Address <br>
-      <input type="text" size="60" minlength="3" maxlength="64" name="businessaddress" pattern="[a-zA-Z -.]{5,}"/>
+   <label class="address">Business Address <br>
+      <input type="street" size="60" minlength="3" maxlength="64" class="address" placeholder="Street">
     </label><br>
-    <label class="zip">Zip Code<br>
-      <input type="text" size="60" minlength="3" maxlength="64" name="zip" pattern="(\d{5}([\-]\d{4})?)" required/>
+    <input type="city" size="60" minlength="3" maxlength="64" class="address" placeholder="City">
+    </label><br>
+    <input type="state" size="60" minlength="3" maxlength="64" class="address"  placeholder="State">
+  </label><br>
+    <input type="zip" size="60" minlength="3" maxlength="64" name="zip" placeholder="Zip"/>
   </label><br>
       
     
