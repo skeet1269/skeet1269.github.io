@@ -40,25 +40,25 @@
 
       <h2>Membership Application</h2>
 
-<form method="GET" action="thanks.html">
+<form method="GET" action="confirmation.html">
 
 <fieldset class="userinfo">
   <p>Thank you for taking the time to invest in your business and community by joining the Helena Chamber of Commerce.<br> Items marked with an * are required.</p>
   <legend>User Information</legend>
-  <label class="name">First Name *<br>
-    <input type="text" name="firstname" pattern="[a-zA-Z -.]{5,}" required/>
+  <label class="name" >First Name *<br>
+    <input type="text" size="60" minlength="3" maxlength="64" name="firstname" pattern="[a-zA-Z -.]{5,}" required/>
   </label><br>
   <label class="name">Last Name *<br>
-    <input type="text" name="lastname" pattern="[a-zA-Z -.]{5,}" required/>
+    <input type="text" size="60" minlength="3" maxlength="64" name="lastname" pattern="[a-zA-Z -.]{5,}" required/>
   </label><br>
   <label class="name">Title<br>
-    <input type="text" name="title" pattern="[a-zA-Z -.]{5,}"/>
+    <input type="text" size="60" minlength="3" maxlength="64" name="title" pattern="[a-zA-Z -.]{5,}"/>
   </label><br>
   <label class="email">e-mail *<br>
-    <input type="email" name="email" placeholder="anyname@email.com" required/>
+    <input type="email" size="60" minlength="3" maxlength="64" name="email" placeholder="anyname@email.com" required/>
     </label><br>
   <label class="phone">Cell Phone # *<br>
-      <input type="tel" name="tel" placeholder="###-###-####" required/>
+      <input type="tel" size="60" minlength="3" maxlength="64" name="tel" placeholder="###-###-####" required/>
       </label><br> 
   
   </fieldset>
@@ -66,16 +66,16 @@
   <fieldset class="businessInfo">
     <legend>Business Information</legend>
     <label class="name">Business Name *<br>
-      <input type="text" name="businessname" pattern="[a-zA-Z -.]{5,}" required/>
+      <input type="text" size="60" minlength="3" maxlength="64" name="businessname" pattern="[a-zA-Z -.]{5,}" required/>
     </label><br>
     <label class="name">Business Website<br>
-      <input type="text" name="businessname" pattern="[a-zA-Z -.]{5,}" placeholder="www.yourbusiness.com" required/>
+      <input type="url" size="60" minlength="3" maxlength="64" name="website"  placeholder="www.yourbusiness.com"/>
     </label><br>
     <label class="name">Business Address <br>
-      <input type="text" name="businessaddress" pattern="[a-zA-Z -.]{5,}"/>
+      <input type="text" size="60" minlength="3" maxlength="64" name="businessaddress" pattern="[a-zA-Z -.]{5,}"/>
     </label><br>
     <label class="zip">Zip Code<br>
-      <input type="text" name="zip" pattern="(\d{5}([\-]\d{4})?)" required/>
+      <input type="text" size="60" minlength="3" maxlength="64" name="zip" pattern="(\d{5}([\-]\d{4})?)" required/>
   </label><br>
       
     
@@ -89,7 +89,7 @@
     
     <legend>Business Description</legend>
     <label class="businessdescription">
-    <textarea name="comment" rows="10" cols="55"></textarea>
+    <textarea name="comment" rows="10" cols="60"></textarea>
     </label>
   
     </fieldset>
