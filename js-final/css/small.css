@@ -79,7 +79,7 @@ main {
                 padding: 5px;
                 border-radius: 10px 10px 10px 10px;
                 margin: 5px;
-                height: 95%;
+                /*height: 95%;*/
                 display: block;
                 text-align: center;
                 
@@ -107,9 +107,7 @@ main {
                 left: 15px;
                 padding: 0.5% 1% 0.5% 1%;
                 background-color: #D9f7FA;
-                
                 color: #3692C3;
-                
                 margin: 5px;
               }
 
@@ -118,9 +116,7 @@ main {
                 left: 15px;
                 padding: 0.5% 1% 0.5% 1%;
                 background-color: #D9f7FA;
-                
                 color: #3692C3;
-                
                 margin: 5px;
               }
 
