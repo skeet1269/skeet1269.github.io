@@ -2,7 +2,7 @@
     "business": [
       {
         "name": "Golden Rule BBQ",
-        "photo": "sodasprings.jpg",
+        "photo": "golden.jpg",
         "motto": "Love thy neighbor, give them barbeque.",
         "Phone": "205.621.7427",
         "Address": "4290 Hwy 52 W"
@@ -10,7 +10,7 @@
       },
       {
         "name": "Cahaba Dental Arts",
-        "photo": "springfield.jpg",
+        "photo": "cahaba.jpg",
         "motto": "Dedicated to great dental experience.",
         "Phone": "205.267.1216",
         "Address": "3333 Helena Road"
@@ -19,10 +19,82 @@
       },
       {
         "name": "Minuteman Press",
-        "photo": "preston.jpg",
+        "photo": "minuteman.jpg",
         "motto": "We design, print & promote...YOU!",
         "Phone": "205.621.2722",
         "Address": "4013 Helena Road"
+        
+        
+      },
+      {
+        "name": "Beignets and Lattes",
+        "photo": "#",
+        "motto": "#",
+        "Phone": "205.358.7828",
+        "Address": "1915 Hwy 58"
+        
+        
+      },
+      {
+        "name": "Edward Jones Investments",
+        "photo": "#",
+        "motto": "#",
+        "Phone": "205.664.2201",
+        "Address": "100 Brook Drive, Ste. E"
+        
+        
+      },
+      {
+        "name": "Fatima's Family AfHair",
+        "photo": "#",
+        "motto": "#",
+        "Phone": "2205.621.1330",
+        "Address": "4814 Hwy 52 W"
+        
+        
+      },
+      {
+        "name": "Helena Dog House",
+        "photo": "#",
+        "motto": "#",
+        "Phone": "205.624.3425",
+        "Address": "98 Ace Place"
+        
+        
+      },
+      {
+        "name": "Home Plate Cooking",
+        "photo": "#",
+        "motto": "#",
+        "Phone": "205.621.6502",
+        "Address": "5129 Hwy 17"
+        
+        
+      },
+      {
+        "name": "Morgan Door & Window",
+        "photo": "#",
+        "motto": "#",
+        "Phone": "205.519.7646",
+        "Address": "4075 Helena Road"
+        
+        
+      },
+      {
+        "name": "Primrose School",
+        "photo": "#",
+        "motto": "#",
+        "Phone": "205.685.1905",
+        "Address": "501 Riverwoods Court"
+        
+        
+      },
+      {
+        "name": "Vulcan Engineering Co.",
+        "photo": "#",
+        "motto": "#",
+        "Phone": "205.663.0732",
+        "Address": "Helena Industrial Park"
         
         
       }

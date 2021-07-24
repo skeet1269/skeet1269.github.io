@@ -12,7 +12,7 @@ fetch(requestURL)
     const cards = [];
 
     for (let i = 0; i < business.length; i++ ) {
-        if (i == 0 || i == 1 || i == 2) {
+         {
             let card = document.createElement('section');
             let data = document.createElement('div');
             let h2 = document.createElement('h2');
@@ -60,4 +60,3 @@ fetch(requestURL)
   const result = [cards[2], cards[0], cards[1]];
   result.forEach(card => document.querySelector('div.cards').append(card))
 });
-
