@@ -149,8 +149,18 @@ main {
                 background-color: #D9f7FA;
                 color: #3692C3;
                 margin: 5px;
-              }*/
+              }
 
+
+              .confirmation {
+                top: 25px;
+                left: 15px;
+                padding: 0.5% 1% 0.5% 1%;
+                background-color: #D9f7FA;
+                color: #3692C3;
+                margin: 5px;
+
+              }
              
 
 .weathersummary
